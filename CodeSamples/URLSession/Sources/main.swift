@@ -16,7 +16,7 @@ let task = session.dataTask(with: url) { (data, response, error) in
 }
 // don't forget to call resume() :p
 task.resume()
-print("Downoad started")
+print("Download started")
 
 // this while loop keeps the app alive until the download finishes
 while downloading {
